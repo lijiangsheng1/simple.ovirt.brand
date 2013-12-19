@@ -1,0 +1,21 @@
+<div>
+  <h2>
+    <span class="obrand_section_header">{portal_title}</span>
+  </h2>
+  <div>
+    <a href="userportal/?locale={userLocale}">{portal_user_portal}</a>
+  </div>
+  <div>
+    <a href="webadmin/?locale={userLocale}">{portal_admin}</a>
+  </div>
+  <div>
+    <a href="services/reports-redirect">{portal_reports}</a>
+  </div>
+
+  <h2>
+    <span class="obrand_section_header">{downloads_title}</span>
+  </h2>
+  <div>
+    <a href="{console_client_resources_url}" target="_blank">{console_client_resources}</a>
+  </div>
+</div>
